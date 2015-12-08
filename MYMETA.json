@@ -4,7 +4,7 @@
       "Rob Kinyon <rob.kinyon@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -15,9 +15,8 @@
    "name" : "DBIx-Class-Sims",
    "no_index" : {
       "directory" : [
-         "inc",
          "t",
-         "xt"
+         "inc"
       ]
    },
    "prereqs" : {
@@ -53,20 +52,6 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "bugtracker" : {
-         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=DBIx-Class-Sims"
-      },
-      "homepage" : "http://search.cpan.org/perldoc?DBIx%3A%3AClass%3A%3ASims",
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
-      "repository" : {
-         "url" : "https://github.com/robkinyon/dbix-class-sims"
-      },
-      "x_IRC" : "irc://irc.perl.org/#dbix-class",
-      "x_MailingList" : "http://lists.scsys.co.uk/cgi-bin/mailman/listinfo/dbix-class"
-   },
-   "version" : "0.300002",
-   "x_module_name" : "DBIx::Class::Sims"
+   "version" : "0.300003",
+   "x_serialization_backend" : "JSON::PP version 2.27202"
 }
